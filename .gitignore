@@ -1,15 +1,29 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Gradle caches and build output
+.gradle/
+.kotlin/
+**/build/
+
+# Local Android SDK path
 local.properties
+
+# Android Studio settings
+.idea/
+*.iml
+captures/
+
+# Native build output
+.externalNativeBuild/
+.cxx/
+
+# Signing keys and credentials
+*.jks
+*.keystore
+keystore.properties
+
+# Local environment secrets
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
