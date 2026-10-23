@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_app_bar_title">Runner</string>
+    <string name="home_greeting">Hola, %1$s</string>
+    <string name="home_motivation">¿Listo para sumar kilómetros?</string>
+    <string name="home_start_run">Iniciar carrera</string>
+    <string name="home_recent_runs_title">Carreras recientes</string>
+    <string name="home_view_history">Ver historial</string>
+    <string name="home_weekly_goal_title">Objetivo semanal</string>
+    <string name="home_weekly_goal_progress">%1$s de %2$s</string>
+    <string name="home_recent_run_summary">%1$s · %2$s</string>
+    <string name="home_recent_run_pace">Ritmo: %1$s</string>
+</resources>
